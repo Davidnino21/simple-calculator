@@ -18,14 +18,15 @@ tds.forEach(td => {
 });
 
 function clearAll() {
-
+    screen.value = ""
 }
 
 function deleteLatEntry() {
-
+    screen.value = screen.value.slice(0, -1)
 }
 
 function getAnswer() {
     const answer = eval(screen.value)
-    screen.value=answer
+    screen.value = answer
 }
+
