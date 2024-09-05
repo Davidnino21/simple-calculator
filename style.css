@@ -4,7 +4,8 @@ body {
     display: flex;
     justify-content: center;
     color: #ecf0f1;
-    background-color: rgb(23, 24, 37);
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     font-family: 'Fjalla One', sans-serif;
 }
 
@@ -18,11 +19,14 @@ h1 {
 }
 
 input {
-    width: 80vw;
+    width: 83vw;
     font-size: 40px;
     border: none;
     margin-bottom: 10px;
     border-radius: 10px;
+    text-align: right;
+    padding: 10px;
+    font-weight: bolder;
 }
 
 table {
@@ -36,5 +40,13 @@ button {
     height: 10vh;
     padding: 10px;
     margin: 5px;
+    font-size: 30px;
+    border-radius: 5px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 100;
+}
